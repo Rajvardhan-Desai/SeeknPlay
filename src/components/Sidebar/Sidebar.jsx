@@ -40,7 +40,7 @@ const Sidebar = () => {
 					cursor='pointer'
 				>
 					{/* <InstagramMobileLogo /> */}
-					<Image src=".\public\favicon.png"></Image>
+					<Image src="/favicon.png"></Image>
 				</Link>
 				<Flex direction={"column"} gap={5} cursor={"pointer"}>
 					<SidebarItems />
