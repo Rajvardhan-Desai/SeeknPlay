@@ -86,7 +86,7 @@ const MapComponent = () => {
 
       userLocation.setStyle(new Style({
         image: new Icon({
-          src: user.uid === authUser.uid ? 'public/placeholder1.png' : 'public/placeholder copy.png',
+          src: user.uid === authUser.uid ? '../../public/placeholder1.png' : '../../public/placeholder copy.png',
           scale: 0.11,
         }),
       }));
