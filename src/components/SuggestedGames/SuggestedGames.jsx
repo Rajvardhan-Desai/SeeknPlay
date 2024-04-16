@@ -26,7 +26,7 @@ const SuggestedSchedules = () => {
 						
 						</>
 						
-					)) : <> <p>No suggested schedules available.</p>
+					)) : <> <p>No schedules available.</p>
 						<CreateSchedule isOpen={isOpen} onClose={onClose} />
 					</> }
 				</HStack>

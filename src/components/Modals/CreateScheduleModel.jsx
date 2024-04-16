@@ -108,7 +108,7 @@ const CreateSchedule = () => {
     return (
         <>
 
-            <Button backgroundColor={"#002d4c"} onClick={onOpen}>Create Schedule</Button>
+            <Button size={"sm"} backgroundColor={"#002d4c"} onClick={onOpen}>Create Schedule</Button>
 
 
             <Modal isOpen={isOpen} onClose={onClose} size="xl">
