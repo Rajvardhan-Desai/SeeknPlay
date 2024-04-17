@@ -11,7 +11,7 @@ const MyUpSchedules = () => {
     
     const { schedules, loading } = useGetMyUpSchedules(authUser?.uid, document?.schedules);
     
-    if (loading || loadingd) {
+    if (loading) {
         return <Spinner color='blue.500' />;
     }
 
