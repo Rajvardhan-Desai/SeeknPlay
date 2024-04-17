@@ -14,6 +14,9 @@ const MyUpSchedules = () => {
     if (loading) {
         return <Spinner color='blue.500' />;
     }
+    if (error) {
+        return <Text>Failed to load schedules: {error.message}</Text>;
+    }
 
     return (
         <>
