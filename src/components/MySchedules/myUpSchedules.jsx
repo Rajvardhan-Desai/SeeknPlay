@@ -14,6 +14,7 @@ const MyUpSchedules = () => {
     if (loading) {
         return <Spinner color='blue.500' />;
     }
+
     if (error) {
         return <Text>Failed to load schedules: {error.message}</Text>;
     }
@@ -22,7 +23,7 @@ const MyUpSchedules = () => {
         <>
             <VStack>
                 <Grid templateColumns={{ sm: 'repeat(auto-fit, minmax(250px, 1fr))' }} gap={6}>
-                    {schedules.length > 0 ? schedules.map(schedule => (
+                    {schedules?.length > 0 ? schedules.map(schedule => (
                         <GridItem key={schedule.id} m={2}>
                             <SuggestedSchedule schedule={schedule} />
                         </GridItem>
@@ -32,5 +33,6 @@ const MyUpSchedules = () => {
         </>
     );
 };
+
 
 export default MyUpSchedules;
