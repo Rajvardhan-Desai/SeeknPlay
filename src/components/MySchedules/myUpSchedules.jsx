@@ -11,9 +11,7 @@ const MyUpSchedules = () => {
     
     const { schedules, loading } = useGetMyUpSchedules(authUser?.uid, document?.schedules);
     
-    if (loading) {
-        return <Spinner color='blue.500' />;
-    }
+    
 
     if (error) {
         return <Text>Failed to load schedules: {error.message}</Text>;
