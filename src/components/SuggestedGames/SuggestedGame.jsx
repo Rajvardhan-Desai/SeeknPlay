@@ -316,9 +316,6 @@ const SuggestedSchedule = ({ schedule }) => {
                             </Box>
                         )}
 
-
-
-
                         <Accordion allowMultiple mt={2} p={2}>
                             <AccordionItem>
                                 <h2>
