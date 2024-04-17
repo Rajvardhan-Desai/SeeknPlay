@@ -247,6 +247,7 @@ const MyProfilePastSchedule = ({ schedule }) => {
                                                     {timeAgo(review.createdAt)}
                                                 </Text>
                                             </Flex>
+                                            <StarRating rating={review.rating} editable={false} />
                                             <Text fontSize={14}>{review.review}</Text>
                                         </Flex>
                                     </Flex>
