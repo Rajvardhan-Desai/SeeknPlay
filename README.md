@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3e926211-68f6-478b-9ec9-88d40e8f6183)# SeeknPlay
+# SeeknPlay
 
 **SeeknPlay** is a digital platform designed for sports enthusiasts to connect, organize, and participate in sports activities. It offers various features to manage users, discover sports games, schedule events, and engage with a community of sports lovers.
 
