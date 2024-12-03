@@ -66,5 +66,5 @@
 ---
 
 ### Contributing
-    If you'd like to contribute to SeeknPlay, feel free to fork the repository and create a pull request. You can also open issues for bugs or new feature requests.
+   If you'd like to contribute to SeeknPlay, feel free to fork the repository and create a pull request. You can also open issues for bugs or new feature requests.
 
